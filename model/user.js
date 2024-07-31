@@ -5,6 +5,7 @@ let userSchema= mongoose.Schema({
     password:String,
     points:Number,
     role:String,
+    level:String,
     email: {
         type:String,
         unique:true,
